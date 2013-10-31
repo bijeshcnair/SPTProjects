@@ -1,6 +1,8 @@
 package com.bc.world;
 
-public class MyTestClass {
+import javax.servlet.http.HttpServlet;
+
+public class MyTestClass extends HttpServlet {
 
 	/**
 	 * @param args
