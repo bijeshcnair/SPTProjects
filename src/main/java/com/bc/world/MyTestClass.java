@@ -21,13 +21,16 @@ public class MyTestClass extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		super.doPost(req, resp);
+		//super.doPost(req, resp);
+		resp.getWriter().write("Hello world from post");
+		
 	}
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		super.doGet(req, resp);
+		//super.doGet(req, resp);
+		resp.getWriter().write("Hello world from get");
 	}
 
 }
